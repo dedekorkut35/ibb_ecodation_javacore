@@ -1,5 +1,8 @@
 package com.yusufdiler;
 
+import com.sun.source.util.SourcePositions;
+
+import javax.xml.transform.Source;
 import java.util.Scanner;
 
 public class Homework3 {
@@ -7,7 +10,7 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in); // Tek bir Scanner nesnesi açılıyor
 
     System.out.println("Lütfen soyadınızı giriniz:");
-    String surname = scanner.nextLine();  // Kullanıcı girdisi alınıyor
+    String surname = scanner.nextLine();  // Kullanıcı soyisim girdisi alınıyor
 
     System.out.println("Lütfen adınızı giriniz:");
     String name = scanner.nextLine();  // Kullanıcıdan isim alınıyor
