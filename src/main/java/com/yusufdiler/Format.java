@@ -9,6 +9,7 @@ public class Format {
         Formatter formatter=new Formatter();
         formatter.format("hoşgeldiniz Adınız: %s Şanlı Numaranız : %d Ödlülünüz: %f %s", "Asaf", 7,3.4, "milyon dolar");
         System.out.println(formatter);
+        formatter.close();// yapıyı kapat
     }
     public static void main(String[] args) {
 formatter1();
